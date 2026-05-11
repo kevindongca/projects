@@ -66,7 +66,7 @@ MySQL solutions to HackerRank SQL challenges.
 
 ## About
 
-**Kevin Dong** — First-year CS Co-op student at UTSC pursuing a CS Major and Statistics Specialist (Quantitative Finance stream). Targeting quantitative finance roles at top trading firms.
+**Kevin Dong** — First-year CS Co-op student at UTSC pursuing a CS Specialist (Software Engineering Stream) and Statistics Major. Interested in quantitative finance, algorithmic trading, and data-driven investing.
 
 - GitHub: [kevindongca](https://github.com/kevindongca)
-- Certifications: Bloomberg Market Concepts, Oracle Cloud Infrastructure Foundations
+- Certifications: Bloomberg Market Concepts, Oracle Cloud Infrastructure Foundations and Generative AI
