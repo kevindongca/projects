@@ -403,10 +403,10 @@ if __name__ == '__main__':
 
     # ── SPY Benchmark ─────────────────────────────────────────────────────────
     spy_data = yf.download('SPY', start=START_DATE, end=END_DATE)
-    spy_returns    = spy_data['Close'].pct_change().dropna()
+    spy_returns    = spy_data['Close'].pct_change().dropna().squeeze()
     spy_cumulative = (1 + spy_returns).cumprod()
-    _, spy_cagr, spy_sharpe, spy_sortino, spy_calmar, spy_dd, spy_var = \
-        compute_metrics(spy_returns)
+    spy_cumulative_check, spy_cagr, spy_sharpe, spy_sortino, spy_calmar, spy_dd, spy_var = \
+        compute_metrics(spy_returns.squeeze())
     print_metrics("SPY Benchmark", spy_cagr, spy_sharpe,
                   spy_sortino, spy_calmar, spy_dd, spy_var)
 
