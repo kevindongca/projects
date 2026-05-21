@@ -48,9 +48,9 @@ NUM_TRADES     = TOP_N
 TRAIN_YEARS    = 2
 TEST_MONTHS    = 6
 REBALANCE_FREQ = 'QE'       # 'QE' = quarterly, 'ME' = monthly
-USE_REGIME     = True        # enable 200-day MA bear market filter
+USE_REGIME     = False        # enable 200-day MA bear market filter
 USE_MINVAR     = True        # enable minimum variance weighting
-MA_WINDOW      = 200         # regime detection MA window
+MA_WINDOW      = 50         # regime detection MA window
 
 # signal lookback windows (trading days)
 SHORT_WINDOW  = 21    # ~1 month
